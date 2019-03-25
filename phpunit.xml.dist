@@ -10,7 +10,7 @@
     </php>
 
     <testsuites>
-        <testsuite name="Challonge integration for Contao 4">
+        <testsuite name="ChartJs integration for Contao 4">
             <directory>./tests</directory>
         </testsuite>
     </testsuites>
