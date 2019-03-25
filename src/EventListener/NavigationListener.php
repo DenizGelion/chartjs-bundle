@@ -22,9 +22,9 @@ class NavigationListener
 		
 		$arrModules['system']['modules'] = array_merge(
 			[
-				'challonge' => [
+				'chartjs' => [
 					'label' => 'ChartJs integration',
-					'class' => 'navigation challonge',
+					'class' => 'navigation chartjs',
 					'href'  => $this->router->generate('denizgelion_backend_chartjs'),
 					'isActive' => 'denizgelion_backend_chartjs' === $request->attributes->get('_route'),
 				],

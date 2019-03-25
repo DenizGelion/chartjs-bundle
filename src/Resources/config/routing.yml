@@ -3,4 +3,4 @@ denizgelion_backend_chartjs:
     defaults:
            _scope: backend
            _token_check: true
-           _controller: "ContaoChartJsBundle:Default:index"
+           _controller: "ContaoChartJsBundle:default:index"
