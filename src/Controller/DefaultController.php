@@ -11,6 +11,6 @@ class DefaultController extends Controller
 	{
 		$this->get('contao.framework')->initialize();
 		
-		return new Response($this->get('twig')->render('@ContaoChartJsBundle/default/index.html.twig'));
+		return new Response($this->get('twig')->render('@ContaoChartJsBundle/Default/index.html.twig'));
 	}
 }
