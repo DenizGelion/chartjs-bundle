@@ -21,16 +21,16 @@
         "contao/manager-plugin": "^2.0"
     },
     "extra": {
-        "contao-manager-plugin": "denizgelion\\chartjs\\ContaoManager\\Plugin"
+        "contao-manager-plugin": "denizgelion\\ContaoChartJsBundle\\ContaoManager\\Plugin"
     },
     "autoload": {
         "psr-4": {
-            "denizgelion\\chartjs\\": "src/"
+            "denizgelion\\ContaoChartJsBundle\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "denizgelion\\chartjs\\Tests\\": "tests/"
+            "denizgelion\\ContaoChartJsBundle\\Tests\\": "tests/"
         }
     },
     "support": {

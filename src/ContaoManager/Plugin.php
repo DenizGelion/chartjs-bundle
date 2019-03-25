@@ -8,7 +8,7 @@
  * @license LGPL-3.0-or-later
  */
 
-namespace denizgelion\ChartJsBundle\ContaoManager;
+namespace denizgelion\ContaoChartJsBundle\ContaoManager;
 
 use Contao\CoreBundle\ContaoCoreBundle;
 use Contao\ManagerPlugin\Bundle\BundlePluginInterface;
@@ -17,7 +17,7 @@ use Contao\ManagerPlugin\Bundle\Parser\ParserInterface;
 use Contao\ManagerPlugin\Routing\RoutingPluginInterface;
 use Symfony\Component\Config\Loader\LoaderResolverInterface;
 use Symfony\Component\HttpKernel\KernelInterface;
-use denizgelion\ChartJsBundle\ContaoChartJsBundle;
+use denizgelion\ContaoChartJsBundle\ContaoChartJsBundle;
 
 class Plugin implements BundlePluginInterface, RoutingPluginInterface
 {

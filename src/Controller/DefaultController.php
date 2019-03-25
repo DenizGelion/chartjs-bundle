@@ -1,6 +1,6 @@
 <?php
 
-namespace denizgelion\ChartJsBundle\Controller;
+namespace denizgelion\ContaoChartJsBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Response;
@@ -11,6 +11,6 @@ class DefaultController extends Controller
 	{
 		$this->get('contao.framework')->initialize();
 		
-		return new Response($this->get('twig')->render('@ContaoChartJs/default/index.html.twig'));
+		return new Response($this->get('twig')->render('@ContaoChartJsBundle/default/index.html.twig'));
 	}
 }
