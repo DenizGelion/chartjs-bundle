@@ -1,0 +1,8 @@
+services:
+    denizgelion_chartjs.navigation_listener:
+        class: denizgelion\ChartJsBundle\EventListener\NavigationListener
+        arguments:
+        - "@request_stack"
+        - "@router"
+        tags:
+        - { name: contao.hook, hook: getUserNavigation }
