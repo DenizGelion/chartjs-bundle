@@ -19,7 +19,7 @@ class ContaoChartJsModule extends \Module
         if (TL_MODE == 'BE') {
             $template = new \BackendTemplate('be_wildcard');
 
-            $template->wildcard = '### '.utf8_strtoupper($GLOBALS['TL_LANG']['FMD']['ChartJs'][0]).' ###';
+            $template->wildcard = '### '.utf8_strtoupper($GLOBALS['TL_LANG']['FMD']['chartjs'][0]).' ###';
             $template->title = $this->headline;
             $template->id = $this->id;
             $template->link = $this->name;
