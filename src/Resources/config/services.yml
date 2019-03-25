@@ -1,8 +1,9 @@
 services:
-    denizgelion_chartjs.navigation_listener:
-        class: denizgelion\ContaoChartJsBundle\EventListener\NavigationListener
-        arguments:
-        - "@request_stack"
-        - "@router"
-        tags:
-        - { name: contao.hook, hook: getUserNavigation }
+    _instanceof:
+        Contao\CoreBundle\Framework\FrameworkAwareInterface:
+            calls:
+                - ["setFramework", ["@contao.framework"]]
+
+        Symfony\Component\DependencyInjection\ContainerAwareInterface:
+            calls:
+                - ["setContainer", ["@service_container"]]

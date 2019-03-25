@@ -1,6 +1,0 @@
-denizgelion_backend_chartjs:
-    path: /contao/chartjs
-    defaults:
-           _scope: backend
-           _token_check: true
-           _controller: "ContaoChartJsBundle:Default:index"
