@@ -16,7 +16,7 @@ use Contao\ManagerPlugin\Bundle\Config\BundleConfig;
 use Contao\ManagerPlugin\Bundle\Parser\ParserInterface;
 use denizgelion\ContaoChartJsBundle\ContaoChartJsBundle;
 
-class Plugin implements BundlePluginInterface, RoutingPluginInterface
+class Plugin implements BundlePluginInterface
 {
     /**
      * {@inheritdoc}
